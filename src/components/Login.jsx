@@ -22,7 +22,7 @@ function Login() {
 
   if (username && password === "1234") {
     localStorage.setItem("trainer", username);
-    navigate("/dashboard");
+    navigate("/SK-Training-Academy/dashboard");
   } else {
     alert("Select trainer & enter correct password ❌");
   }
