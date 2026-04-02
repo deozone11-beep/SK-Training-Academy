@@ -18,23 +18,23 @@ const router = createBrowserRouter([
     errorElement : <NotFound/>
   },
   {
-    path : '/officialLogin',
+    path : '/SK-Training-Academy/officialLogin',
     element : <Login />
   },
   {
-    path: '/registration',
+    path: '/SK-Training-Academy/registration',
     element : <Registration/>
   },
   {
-    path: '/about',
+    path: '/SK-Training-Academy/about',
     element : <About/>
   },
   {
-    path: '/contact',
+    path: '/SK-Training-Academy/contact',
     element : <Contact/>
   },
   {
-    path: '/dashboard',
+    path: '/SK-Training-Academy/dashboard',
     element : <Dashboard/>
   }
 

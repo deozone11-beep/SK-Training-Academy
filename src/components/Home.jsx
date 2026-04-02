@@ -10,11 +10,11 @@ function Home() {
         <h1><i className="fa-solid fa-graduation-cap"></i> SK Training Academy</h1>
 
         <div className="navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/registration">Registration</Link></p>
-          <p className="navbar-link"><Link to="/contact">Contact</Link></p>
-          <p className="navbar-link"><Link to="/officialLogin">Official Login</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/registration">Registration</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/contact">Contact</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/officialLogin">Official Login</Link></p>
         </div>
 
         <div className="navbar-menu-toggle" onClick={() => setIsOpen(true)}>
@@ -28,11 +28,11 @@ function Home() {
         </p>
 
         <div className="side-navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/registration">Registration</Link></p>
-          <p className="navbar-link"><Link to="/contact">Contact</Link></p>
-          <p className="navbar-link"><Link to="/officialLogin">Official Login</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/registration">Registration</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/contact">Contact</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/officialLogin">Official Login</Link></p>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ function Home() {
         <div>
           <h1>Level up your Studies</h1>
           <p>We improve your future </p>
-          <button className="header-button"><Link to="/registration">Register Now</Link></button>
-          <button className="header-button"><Link to="/officialLogin">Trainer Login</Link></button>
+          <button className="header-button"><Link to="/SK-Training-Academy/registration">Register Now</Link></button>
+          <button className="header-button"><Link to="/SK-Training-Academy/officialLogin">Trainer Login</Link></button>
         </div>
       </div>
       <div className="service">

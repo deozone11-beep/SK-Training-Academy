@@ -11,10 +11,10 @@ function Contact() {
       <nav className="navbar">
         <h1>SK Training Academy</h1>
         <div className="navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/registration">Registration</Link></p>
-          <p className="navbar-link"><Link to="/officialLogin">Official Login</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/registration">Registration</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/officialLogin">Official Login</Link></p>
         </div>
         <div className="navbar-menu-toggle" onClick={() => setIsOpen(true)}>
           <i className="fa-solid fa-bars"></i>
@@ -27,10 +27,10 @@ function Contact() {
         </p>
 
         <div className="side-navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/registration">Registration</Link></p>
-          <p className="navbar-link"><Link to="/officialLogin">Official Login</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/registration">Registration</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/officialLogin">Official Login</Link></p>
         </div>
       </div>
 

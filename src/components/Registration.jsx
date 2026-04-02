@@ -27,9 +27,9 @@ const formSubmit = (e) => {
       <nav className="navbar">
         <h1>SK Training Academy</h1>
         <div className="navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/contact">Contact</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/contact">Contact</Link></p>
         </div>
         <div className="navbar-menu-toggle" onClick={() => setIsOpen(true)}>
           <i className="fa-solid fa-bars"></i>
@@ -42,9 +42,9 @@ const formSubmit = (e) => {
         </p>
 
         <div className="side-navbar-links">
-          <p className="navbar-link"><Link to="/">Home</Link></p>
-          <p className="navbar-link"><Link to="/about">About Us</Link></p>
-          <p className="navbar-link"><Link to="/contact">Contact</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy">Home</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/about">About Us</Link></p>
+          <p className="navbar-link"><Link to="/SK-Training-Academy/contact">Contact</Link></p>
         </div>
       </div>
 

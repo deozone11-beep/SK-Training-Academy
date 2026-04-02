@@ -70,7 +70,7 @@ function Login() {
         </div>
 
         <div className={styles.register}>
-          <span><Link to="/">Go to Home Page</Link></span>
+          <span><Link to="/SK-Training-Academy">Go to Home Page</Link></span>
         </div>
       </div>
     </div>
