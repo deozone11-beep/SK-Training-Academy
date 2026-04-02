@@ -166,6 +166,21 @@
       "time": "11:00 AM - 1:00 PM"
     },
     {
+      "id": "SK_S_0011",
+      "firstName": "Sneha",
+      "lastName": "G",
+      "degree": "B.Sc",
+      "branch": "Physics",
+      "year": "2021",
+      "college": "Queen Mary's College",
+      "mail": "sneha@gmail.com",
+      "phone": "9887766554",
+      "course": "Data Science",
+      "trainerId": "SK_T_0002",
+      "trainer": "Supritha",
+      "time": "11:00 AM - 1:00 PM"
+    },
+    {
       "id": "SK_S_0012",
       "firstName": "Ajith",
       "lastName": "K",

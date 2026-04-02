@@ -7,7 +7,7 @@ export const useStudents = (trainer) => {
   useEffect(() => {
   setLoading(true);
 
-  fetch("/students.json")
+  fetch("/SK-Training-Academy/students.json")
     .then(res => res.json())
     .then(data => {
       console.log("Full Data:", data);

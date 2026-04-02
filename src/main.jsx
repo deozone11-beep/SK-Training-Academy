@@ -13,7 +13,7 @@ import Dashboard from './components/Dashboard.jsx'
 
 const router = createBrowserRouter([
   {
-    path : '/',
+    path : '/SK-Training-Academy',
     element : <Home/>,
     errorElement : <NotFound/>
   },
