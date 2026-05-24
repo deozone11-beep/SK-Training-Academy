@@ -7,21 +7,27 @@ function Home() {
 const [isOpen, setIsOpen] = useState(false);
 const [students, setStudents] = useState([]);
 const [trainer, setTrainer] = useState("");
+const [isLoading, setIsLoading] = useState(false);
 
 const formSubmit = (e) => {
   e.preventDefault();
   alert("Form submitted successfully!");
 }
 
- useEffect(() => {
-  fetch("http://localhost:3000/students")
+useEffect(() => {
+  fetch("/SK-Training-Academy/students.json")
     .then(res => res.json())
     .then(data => {
-      setStudents(data); // just store
+      console.log("Full Data:", data);
+      const filteredStudents = trainer
+        ? data.students.filter(s => s.trainer === trainer)
+        : data.students;
+      setStudents(filteredStudents);
     })
-    .catch(err => console.log(err));
-}, []);
-
+    .catch(err => {
+      console.log(err);
+    });
+}, [trainer]);
   return (
     <div>
       <nav className="navbar">
@@ -47,7 +53,6 @@ const formSubmit = (e) => {
           <p className="navbar-link"><Link to="/SK-Training-Academy/contact">Contact</Link></p>
         </div>
       </div>
-
         <form className='form-container'>
           <table>
             <tbody>
@@ -127,8 +132,6 @@ const formSubmit = (e) => {
             </tbody>
           </table>
         </form>
-        
-
       <div className="footer">
         <div className="footer-box-1">
           <h2 className="headingText">SK Training Academy</h2>

@@ -30,6 +30,9 @@ function Login() {
 
   return (
     <div className={styles.wrapper}>
+            <h2 className="logout">
+              <Link to="/SK-Training-Academy/">Home</Link>
+            </h2>
       <div className={styles.login_box}>
         <div className={styles['login-header1']}>
           <span>Trainer Login</span>

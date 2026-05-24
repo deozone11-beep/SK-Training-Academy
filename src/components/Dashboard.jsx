@@ -105,7 +105,7 @@ function Dashboard() {
   return (
     <div style={{ padding: "20px" }}>
       <h2 className="logout">
-        <Link to="/officialLogin">Logout</Link>
+        <Link to="/SK-Training-Academy/officialLogin">Logout</Link>
       </h2>
 
       <h2 className="trainer-header">
